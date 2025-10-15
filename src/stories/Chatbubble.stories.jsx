@@ -1,4 +1,4 @@
-import { ChatBubble } from '../ChatBubble';
+import { ChatBubble } from "../components/ChatBubble";
 
 export default {
   title: 'Components/ChatBubble',

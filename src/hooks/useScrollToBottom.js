@@ -5,7 +5,7 @@ export const useScrollToBottom = (dependencies) => {
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, dependencies);
+  }, [dependencies]);
 
   return bottomRef;
 };

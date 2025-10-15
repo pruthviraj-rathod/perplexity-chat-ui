@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { useChatStore } from '../store/chatStore';
@@ -32,7 +32,7 @@ export const InputBox = () => {
   return (
     <div className={cn(
       "bg-white",
-      !hasMessages ? "flex items-start justify-start pt-4" : "border-t border-gray-100"
+      !hasMessages ? "flex items-start justify-start pt-4 mb-24" : "border-t border-gray-100"
     )}>
       <div className={cn(
         "w-full px-4 py-4",

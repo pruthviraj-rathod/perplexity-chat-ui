@@ -1,4 +1,3 @@
-import React from 'react';
 import { cn } from '../lib/utils';
 
 export const ChatBubble = ({ message }) => {
@@ -80,45 +79,4 @@ export const ChatBubble = ({ message }) => {
     </div>
   );
 };
-
-
-
-
-// import React from 'react';
-// import { cn } from '../lib/utils';
-
-// export const ChatBubble = ({ message }) => {
-//   const isUser = message.role === 'user';
-
-//   return (
-//     <div
-//       className={cn(
-//         'px-6 py-8 border-b border-gray-100',
-//         !isUser && 'bg-gray-50'
-//       )}
-//     >
-//       <div className="mx-auto max-w-3xl">
-//         <div className="flex items-start gap-4">
-//           {/* Avatar */}
-//           <div
-//             className={cn(
-//               'flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-sm font-medium',
-//               isUser
-//                 ? 'bg-blue-500 text-white'
-//                 : 'bg-teal-500 text-white'
-//             )}
-//           >
-//             {isUser ? 'U' : 'AI'}
-//           </div>
-
-//           {/* Message Content */}
-//           <div className="flex-1 space-y-2">
-//             <div className="text-base leading-7 text-gray-800">
-//               {message.content}
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+export default ChatBubble
