@@ -1,4 +1,4 @@
-import { InputBox } from '../InputBox';
+import { InputBox } from "../components/InputBox";
 
 export default {
   title: 'Components/InputBox',

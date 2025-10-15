@@ -96,3 +96,10 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.temp
+
+# Storybook dist files
+src/stories/dist/
+**/dist/
+
+# Storybook static
+storybook-static/

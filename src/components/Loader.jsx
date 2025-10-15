@@ -1,4 +1,3 @@
-import React from 'react';
 
 export const Loader = () => {
   return (
@@ -37,26 +36,3 @@ export const Loader = () => {
     </div>
   );
 };
-
-
-// import React from 'react';
-// import { Skeleton } from './ui/skeleton';
-
-// export const Loader = () => {
-//   return (
-//     <div className="px-6 py-8 border-b border-gray-100 bg-gray-50">
-//       <div className="mx-auto max-w-3xl">
-//         <div className="flex items-start gap-4">
-//           <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-teal-500 text-white text-sm font-medium">
-//             AI
-//           </div>
-//           <div className="flex-1 space-y-3">
-//             <Skeleton className="h-4 w-full" />
-//             <Skeleton className="h-4 w-5/6" />
-//             <Skeleton className="h-4 w-4/6" />
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
